@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCalculator", "ClientCalculator\ClientCalculator.csproj", "{CB4DB664-A826-4086-AD19-612811506FCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9C1B24A2-5675-4445-8B80-F132B34B9475} = {9C1B24A2-5675-4445-8B80-F132B34B9475}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceCalculator", "ServiceCalculator\ServiceCalculator.csproj", "{9C1B24A2-5675-4445-8B80-F132B34B9475}"
 EndProject
